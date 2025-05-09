@@ -1,0 +1,18 @@
+# dependencies
+node_modules/
+
+
+# Env
+.env
+
+
+# Expo
+.expo/
+
+
+# Extra UI
+assets
+Components
+Screens
+/App.js
+/index.js

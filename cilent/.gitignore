@@ -9,10 +9,3 @@ node_modules/
 # Expo
 .expo/
 
-
-# Extra UI
-assets
-Components
-Screens
-/App.js
-/index.js

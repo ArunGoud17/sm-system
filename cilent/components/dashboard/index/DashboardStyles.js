@@ -1,0 +1,107 @@
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    paddingTop: 40,
+    backgroundColor: '#ffffff',
+  },
+  header: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingHorizontal: 20,
+    backgroundColor: '#fff',
+    paddingVertical: 10,
+  },
+  profileContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  profileImage: {
+    width: 35,
+    height: 35,
+    borderRadius: 18,
+    marginRight: 10,
+    backgroundColor: '#fff',
+  },
+  userName: {
+    color: '#333',
+    fontSize: 16,
+    fontWeight: '600',
+  },
+  searchInput: {
+    height: 40,
+    borderColor: '#ccc',
+    borderWidth: 1,
+    borderRadius: 8,
+    marginHorizontal: 20,
+    marginTop: 10,
+    paddingLeft: 10,
+    fontSize: 16,
+    backgroundColor: '#fff',
+  },
+  dropdownMenu: {
+    position: 'absolute',
+    top: 80,
+    right: 20,
+    backgroundColor: '#fff',
+    borderRadius: 8,
+    elevation: 5,
+    paddingVertical: 8,
+    width: 160,
+    zIndex: 100,
+    shadowColor: '#000',
+    shadowOpacity: 0.1,
+    shadowOffset: { width: 0, height: 2 },
+    shadowRadius: 4,
+  },
+  menuItem: {
+    paddingVertical: 10,
+    paddingHorizontal: 15,
+  },
+  menuText: {
+    fontSize: 16,
+    color: '#333',
+  },
+  grid: {
+    alignItems: 'center',
+    paddingBottom: 30,
+  },
+  module: {
+    alignItems: 'center',
+    margin: 10,
+    padding: 10,
+    backgroundColor: '#fff',
+    borderRadius: 12,
+    elevation: 4,
+    width: 140,
+    height: 140,
+    justifyContent: 'center',
+  },
+  image: {
+    width: 60,
+    height: 60,
+    marginBottom: 10,
+  },
+  label: {
+    fontSize: 14,
+    fontWeight: '600',
+    textAlign: 'center',
+  },
+  profileDetailsInline: {
+    backgroundColor: '#fff',
+    paddingHorizontal: 20,
+    paddingBottom: 10,
+  },
+  profileName: {
+    fontSize: 18,
+    fontWeight: '700',
+    marginBottom: 5,
+  },
+  profileInfo: {
+    fontSize: 15,
+    color: '#333',
+    marginBottom: 3,
+  },
+});
